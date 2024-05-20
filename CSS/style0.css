@@ -109,16 +109,21 @@ nav {
     /* background-color: #fff; */
     margin-top: 1rem;
     text-align: center;
+    display: flex;
 }
 
-.tech-stack h2 {
-    font-size: 2rem;
+.tech-stack h2,p {
+    color: #2d2e32;
+    font-family: Mulish, sans-serif;
+    font-size: 1.4rem;
+    margin-right: 3rem;
     margin-bottom: 1.5rem;
 }
 
 .tech-icons {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -130,4 +135,20 @@ nav {
 
 .tech-icons img:hover {
     transform: translateY(-10px);
+}
+
+.about{
+    background-color: #fff;
+    padding: 7rem;
+    margin: 3rem 0;
+}
+
+.about img{
+    
+} 
+
+.upcoming h3{
+    padding: 112px;
+    font-size: 50px;
+    color: #9c9b9b;
 }
